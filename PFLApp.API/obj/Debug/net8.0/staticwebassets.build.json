@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "8KY7HBVdLC/ybef7P0FZsFQj0OxaXLQCkuUbt7K8WkU=",
+  "Source": "PFLApp.API",
+  "BasePath": "_content/PFLApp.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
