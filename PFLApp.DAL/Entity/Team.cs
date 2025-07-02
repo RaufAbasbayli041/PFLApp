@@ -18,7 +18,5 @@ namespace PFLApp.DAL.Entity
         public ICollection<Player> Players { get; set; } = new List<Player>();
         public ICollection<Match> HomeMatches { get; set; } = new List<Match>();
         public ICollection<Match> AwayMatches { get; set; } = new List<Match>();
-
-
     }
 }

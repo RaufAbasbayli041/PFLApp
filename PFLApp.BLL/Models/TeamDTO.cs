@@ -10,17 +10,15 @@ using Match = PFLApp.DAL.Entity.Match;
 
 namespace PFLApp.BLL.Models
 {
-    public class TeamDTO
+    public record TeamDto
     {
         public int Id { get; set; }
+        public int Code { get; set; }
         public string Name { get; set; }
-        public int GoalsScored { get; set; }
+        public int StadionId { get; set; }
         public ResultEnum Result { get; set; }
-        // Navigation properties
         public ICollection<Player> Players { get; set; } = new List<Player>();
         public ICollection<Match> HomeMatches { get; set; } = new List<Match>();
         public ICollection<Match> AwayMatches { get; set; } = new List<Match>();
-
-
     }
 }

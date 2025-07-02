@@ -13,11 +13,11 @@ namespace PFLApp.DAL.DataBase
         public PFLDBContext(DbContextOptions<PFLDBContext> options) : base(options)
         {
         }
-        public DbSet<Player> Players { get; set; }
         public DbSet<Team> Teams { get; set; }
+        public DbSet<Player> Players { get; set; }
+        public DbSet<Stadion> Stadions { get; set; }
         public DbSet<Match> Matches { get; set; }
         public DbSet<MatchScorer> MatchScorers { get; set; }
-        public DbSet<Stadion> Stadions { get; set; }
         
     }
 }

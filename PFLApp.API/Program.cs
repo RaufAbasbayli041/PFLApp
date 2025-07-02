@@ -1,7 +1,11 @@
 
 using Microsoft.EntityFrameworkCore;
+using PFLApp.BLL.Profiles;
+using PFLApp.BLL.Service.Interface;
+using PFLApp.BLL.Service.Repository;
 using PFLApp.DAL.DataBase;
-using PFLApp.BLL.Extensions;
+using PFLApp.DAL.Repository.Implementation;
+using PFLApp.DAL.Repository.Interface;
 
 
 namespace PFLApp.API
@@ -20,12 +24,9 @@ namespace PFLApp.API
             builder.Services.AddSwaggerGen();
             builder.Services.AddDbContext<PFLDBContext>(options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-
-            // Register AutoMapper
-            builder.Services.AddAutoMapper(typeof(PFLDBContext));
-
-            builder.Services.AddRepositories();
-            builder.Services.AddServices();
+            builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+            builder.Services.AddScoped(typeof(IGenericService<,>), typeof(GenericService<,>));
+            builder.Services.AddAutoMapper(typeof(CustomProfile));
 
 
             var app = builder.Build();

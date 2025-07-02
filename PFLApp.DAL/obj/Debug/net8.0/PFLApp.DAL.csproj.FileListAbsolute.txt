@@ -12,3 +12,18 @@ C:\Users\ASUS\Desktop\Code Academy\C#\API\Homework\PFLAPP\PFLApp\PFLApp.DAL\obj\
 C:\Users\ASUS\Desktop\Code Academy\C#\API\Homework\PFLAPP\PFLApp\PFLApp.DAL\obj\Debug\net8.0\PFLApp.DAL.pdb
 C:\Users\ASUS\Desktop\Code Academy\C#\API\Homework\PFLAPP\PFLApp\PFLApp.DAL\obj\Debug\net8.0\PFLApp.DAL.genruntimeconfig.cache
 C:\Users\ASUS\Desktop\Code Academy\C#\API\Homework\PFLAPP\PFLApp\PFLApp.DAL\obj\Debug\net8.0\ref\PFLApp.DAL.dll
+C:\Users\user\Desktop\PFLApp\PFLApp.DAL\bin\Debug\net8.0\PFLApp.DAL.deps.json
+C:\Users\user\Desktop\PFLApp\PFLApp.DAL\bin\Debug\net8.0\PFLApp.DAL.runtimeconfig.json
+C:\Users\user\Desktop\PFLApp\PFLApp.DAL\bin\Debug\net8.0\PFLApp.DAL.dll
+C:\Users\user\Desktop\PFLApp\PFLApp.DAL\bin\Debug\net8.0\PFLApp.DAL.pdb
+C:\Users\user\Desktop\PFLApp\PFLApp.DAL\obj\Debug\net8.0\PFLApp.DAL.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\PFLApp\PFLApp.DAL\obj\Debug\net8.0\PFLApp.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\PFLApp\PFLApp.DAL\obj\Debug\net8.0\PFLApp.DAL.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\PFLApp\PFLApp.DAL\obj\Debug\net8.0\PFLApp.DAL.AssemblyInfo.cs
+C:\Users\user\Desktop\PFLApp\PFLApp.DAL\obj\Debug\net8.0\PFLApp.DAL.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\PFLApp\PFLApp.DAL\obj\Debug\net8.0\PFLApp.DAL.sourcelink.json
+C:\Users\user\Desktop\PFLApp\PFLApp.DAL\obj\Debug\net8.0\PFLApp.DAL.dll
+C:\Users\user\Desktop\PFLApp\PFLApp.DAL\obj\Debug\net8.0\refint\PFLApp.DAL.dll
+C:\Users\user\Desktop\PFLApp\PFLApp.DAL\obj\Debug\net8.0\PFLApp.DAL.pdb
+C:\Users\user\Desktop\PFLApp\PFLApp.DAL\obj\Debug\net8.0\PFLApp.DAL.genruntimeconfig.cache
+C:\Users\user\Desktop\PFLApp\PFLApp.DAL\obj\Debug\net8.0\ref\PFLApp.DAL.dll

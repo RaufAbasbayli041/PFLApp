@@ -14,7 +14,5 @@ namespace PFLApp.DAL.Entity
         public int TeamId { get; set; }
         public Team Team { get; set; }
         public int GoalsScored { get; set; }
-       
     }
-    
 }

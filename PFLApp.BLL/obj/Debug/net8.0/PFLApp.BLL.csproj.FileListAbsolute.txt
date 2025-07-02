@@ -13,3 +13,19 @@ C:\Users\ASUS\Desktop\Code Academy\C#\API\Homework\PFLAPP\PFLApp\PFLApp.BLL\obj\
 C:\Users\ASUS\Desktop\Code Academy\C#\API\Homework\PFLAPP\PFLApp\PFLApp.BLL\obj\Debug\net8.0\refint\PFLApp.BLL.dll
 C:\Users\ASUS\Desktop\Code Academy\C#\API\Homework\PFLAPP\PFLApp\PFLApp.BLL\obj\Debug\net8.0\PFLApp.BLL.pdb
 C:\Users\ASUS\Desktop\Code Academy\C#\API\Homework\PFLAPP\PFLApp\PFLApp.BLL\obj\Debug\net8.0\ref\PFLApp.BLL.dll
+C:\Users\user\Desktop\PFLApp\PFLApp.BLL\bin\Debug\net8.0\PFLApp.BLL.deps.json
+C:\Users\user\Desktop\PFLApp\PFLApp.BLL\bin\Debug\net8.0\PFLApp.BLL.dll
+C:\Users\user\Desktop\PFLApp\PFLApp.BLL\bin\Debug\net8.0\PFLApp.BLL.pdb
+C:\Users\user\Desktop\PFLApp\PFLApp.BLL\bin\Debug\net8.0\PFLApp.DAL.dll
+C:\Users\user\Desktop\PFLApp\PFLApp.BLL\bin\Debug\net8.0\PFLApp.DAL.pdb
+C:\Users\user\Desktop\PFLApp\PFLApp.BLL\obj\Debug\net8.0\PFLApp.BLL.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\PFLApp\PFLApp.BLL\obj\Debug\net8.0\PFLApp.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\PFLApp\PFLApp.BLL\obj\Debug\net8.0\PFLApp.BLL.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\PFLApp\PFLApp.BLL\obj\Debug\net8.0\PFLApp.BLL.AssemblyInfo.cs
+C:\Users\user\Desktop\PFLApp\PFLApp.BLL\obj\Debug\net8.0\PFLApp.BLL.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\PFLApp\PFLApp.BLL\obj\Debug\net8.0\PFLApp.BLL.sourcelink.json
+C:\Users\user\Desktop\PFLApp\PFLApp.BLL\obj\Debug\net8.0\PFLApp.BLL.csproj.Up2Date
+C:\Users\user\Desktop\PFLApp\PFLApp.BLL\obj\Debug\net8.0\PFLApp.BLL.dll
+C:\Users\user\Desktop\PFLApp\PFLApp.BLL\obj\Debug\net8.0\refint\PFLApp.BLL.dll
+C:\Users\user\Desktop\PFLApp\PFLApp.BLL\obj\Debug\net8.0\PFLApp.BLL.pdb
+C:\Users\user\Desktop\PFLApp\PFLApp.BLL\obj\Debug\net8.0\ref\PFLApp.BLL.dll

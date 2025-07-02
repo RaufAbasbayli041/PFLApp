@@ -13,7 +13,11 @@ namespace PFLApp.BLL.Profiles
     {
         public CustomProfile()
         {
-            CreateMap<Team, TeamDTO>().ReverseMap();          
+            CreateMap<Team, TeamDto>().ReverseMap();
+            CreateMap<Team, TeamResponseDto>().ReverseMap();
+            CreateMap<Player, PlayerDto>().ReverseMap();
+            CreateMap<Stadion, StadionDto>().ReverseMap();
+
         }
     }
 }

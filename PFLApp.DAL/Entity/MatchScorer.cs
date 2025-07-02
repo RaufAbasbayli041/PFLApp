@@ -12,6 +12,6 @@ namespace PFLApp.DAL.Entity
         public Match Match { get; set; }
         public int PlayerId { get; set; }
         public Player Player { get; set; }
-        public int GoalsScored { get; set; } // The number of the goal in the match (e.g., 1st goal, 2nd goal, etc.)
+        public int GoalsScored { get; set; } 
     }
 }

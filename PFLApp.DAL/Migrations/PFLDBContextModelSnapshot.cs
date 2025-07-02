@@ -54,6 +54,9 @@ namespace PFLApp.DAL.Migrations
                     b.Property<DateTime>("UpdatedAt")
                         .HasColumnType("datetime2");
 
+                    b.Property<int>("Week")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
 
                     b.HasIndex("AwayTeamId");
@@ -276,8 +279,7 @@ namespace PFLApp.DAL.Migrations
 
             modelBuilder.Entity("PFLApp.DAL.Entity.Stadion", b =>
                 {
-                    b.Navigation("Team")
-                        .IsRequired();
+                    b.Navigation("Team");
                 });
 
             modelBuilder.Entity("PFLApp.DAL.Entity.Team", b =>

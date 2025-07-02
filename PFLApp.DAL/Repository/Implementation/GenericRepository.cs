@@ -10,60 +10,44 @@ using System.Threading.Tasks;
 
 namespace PFLApp.DAL.Repository.Implementation
 {
-    public class GenericRepository<TEntity> : IGenericRepository<TEntity> where TEntity : BaseEntity, new()
+    public class GenericRepository<T> : IGenericRepository<T> where T : class
     {
-       private readonly PFLDBContext _context;
-        private readonly DbSet<TEntity> _dbSet;
+        private readonly PFLDBContext _context;
+        private readonly DbSet<T> _dbSet;
 
-        public GenericRepository(DbSet<TEntity> dbSet, PFLDBContext context)
-        {            
+        public GenericRepository(PFLDBContext context)
+        {
             _context = context;
-            _dbSet = _context.Set<TEntity>();
+            _dbSet = context.Set<T>();
         }
 
-        public async Task<TEntity> AddAsync(TEntity entity)
+        public async Task<IEnumerable<T>> GetAllAsync()
         {
-            var addedEntity = await _dbSet.AddAsync(entity);
+            return await _dbSet.ToListAsync();
+        }
+
+        public async Task<T?> GetByIdAsync(int id)
+        {
+            return await _dbSet.FindAsync(id);
+        }
+
+        public async Task<T> AddAsync(T entity)
+        {
+            await _dbSet.AddAsync(entity);
             await _context.SaveChangesAsync();
             return entity;
         }
 
-
-        public async Task<bool> DeleteAsync(int id)
+        public async Task UpdateAsync(T entity)
         {
-            var entity = await _dbSet.FindAsync(id);
-            if (entity == null || entity.IsDeleted)
-            {
-                return false;
-            }
-            entity.IsDeleted = true;
             _dbSet.Update(entity);
             await _context.SaveChangesAsync();
-            return true;
         }
 
-        public async Task<IQueryable<TEntity>> GetAllAsync()
+        public async Task DeleteAsync(T entity)
         {
-            var entities = (await _dbSet.ToListAsync()).Where(x => !x.IsDeleted);
-            return entities.AsQueryable();
-        }
-
-        public async Task<TEntity> GetByIdAsync(int id)
-        {
-            var entity = await _dbSet.FindAsync(id);
-            return entity;
-        }
-
-        public async Task<TEntity> UpdateAsync(TEntity entity)
-        {
-            if (entity == null)
-            {
-                throw new ArgumentNullException(nameof(entity), "Entity cannot be null.");
-            }
-            entity.UpdatedAt = DateTime.UtcNow;
-            _dbSet.Update(entity);
+            _dbSet.Remove(entity);
             await _context.SaveChangesAsync();
-            return entity;
         }
     }
 }
