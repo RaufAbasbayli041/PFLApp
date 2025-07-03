@@ -18,6 +18,10 @@ namespace PFLApp.DAL.DataBase
         public DbSet<Stadion> Stadions { get; set; }
         public DbSet<Match> Matches { get; set; }
         public DbSet<MatchScorer> MatchScorers { get; set; }
-        
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.ApplyConfigurationsFromAssembly(typeof(PFLDBContext).Assembly);
+        }
+
     }
 }

@@ -57,13 +57,14 @@ namespace PFLApp.BLL.Service.Repository
 
         }
 
-        public async Task<TDto> UpdateAsync(TDto dto)
+        public async Task<TDto> UpdateAsync(int id, TDto dto)
         {
-            var data = _mapper.Map<TEntity>(dto);
-            var updated = await _repository.UpdateAsync(data);
+            var existing = await _repository.GetByIdAsync(id);
+            if (existing == null)  return null;
+            var entity = _mapper.Map(dto, existing);
+            var updated = await _repository.UpdateAsync(entity);
             if (updated == null) return null;
             return _mapper.Map<TDto>(updated);
-
         }
     }
 }

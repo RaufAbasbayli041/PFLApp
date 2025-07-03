@@ -1,14 +1,16 @@
 
+using FluentValidation;
+using FluentValidation.AspNetCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using PFLApp.BLL.Extensions;
 using PFLApp.BLL.Profiles;
 using PFLApp.BLL.Service.Interface;
 using PFLApp.BLL.Service.Repository;
+using PFLApp.BLL.Validation;
 using PFLApp.DAL.DataBase;
 using PFLApp.DAL.Repository.Implementation;
 using PFLApp.DAL.Repository.Interface;
-using FluentValidation;
 
 
 
@@ -29,11 +31,15 @@ namespace PFLApp.API
             builder.Services.AddDbContext<PFLDBContext>(options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+            builder.Services.AddFluentValidationAutoValidation();
             builder.Services.AddRepositories();
             builder.Services.AddServices();
 
-         builder.Services.AddAutoMapper(typeof(MapProfile).Assembly);
-
+            builder.Services.AddAutoMapper(typeof(MapProfile).Assembly);
+            builder.Services.AddValidatorsFromAssemblyContaining<TeamDtoValidator>();
+            builder.Services.AddValidatorsFromAssemblyContaining<StadionDtoValidator>();
+            builder.Services.AddValidatorsFromAssemblyContaining<PlayerDtoValidator>();
+            builder.Services.AddValidatorsFromAssemblyContaining<MatchDtoValidator>();
 
 
             var app = builder.Build();

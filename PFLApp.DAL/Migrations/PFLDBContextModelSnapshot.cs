@@ -242,7 +242,7 @@ namespace PFLApp.DAL.Migrations
                     b.HasOne("PFLApp.DAL.Entity.Player", "Player")
                         .WithMany()
                         .HasForeignKey("PlayerId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.Navigation("Match");

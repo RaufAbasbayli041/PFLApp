@@ -8,9 +8,9 @@ using PFLApp.BLL.Models;
 
 namespace PFLApp.BLL.Validation
 {
-    public class StadiumDtoValidator : AbstractValidator<StadionDto>
+    public class StadionDtoValidator : AbstractValidator<StadionDto>
     {
-        public StadiumDtoValidator()
+        public StadionDtoValidator()
         {
             RuleFor(x => x.Name).NotEmpty().MaximumLength(100);
             RuleFor(x => x.Capacity).GreaterThan(0);

@@ -6,13 +6,13 @@ using PFLApp.DAL.Entity;
 
 namespace PFLApp.API.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
+    [Route("api/[controller]")]
     public class StadionsController : ControllerBase
     {
-        private readonly IStadionService _service;
+        private readonly IGenericService<Stadion, StadionDto> _service;
 
-        public StadionsController(IStadionService service)
+        public StadionsController(IGenericService<Stadion, StadionDto> service)
         {
             _service = service;
         }
@@ -23,23 +23,29 @@ namespace PFLApp.API.Controllers
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
         {
-            var stadium = await _service.GetByIdAsync(id);
-            return stadium == null ? NotFound() : Ok(stadium);
+            var result = await _service.GetByIdAsync(id);
+            return result == null ? NotFound() : Ok(result);
         }
 
         [HttpPost]
-        public async Task<IActionResult> Create(StadionDto dto)
+        public async Task<IActionResult> Create([FromBody] StadionDto dto)
         {
             var created = await _service.AddAsync(dto);
             return CreatedAtAction(nameof(GetById), new { id = created.Id }, created);
+        }
+
+        [HttpPut("{id}")]
+        public async Task<IActionResult> Update(int id, [FromBody] StadionDto dto)
+        {
+            var updated = await _service.UpdateAsync(id, dto);
+            return Ok(updated);
         }
 
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {
             var deleted = await _service.DeleteAsync(id);
-            return deleted ? NoContent() : NotFound();
+            return deleted ? Ok() : NotFound();
         }
     }
-
 }

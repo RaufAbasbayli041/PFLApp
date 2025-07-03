@@ -12,7 +12,7 @@ namespace PFLApp.BLL.Service.Interface
         Task<TDto> GetByIdAsync(int id);
         Task<IEnumerable<TDto>> GetAllAsync();
         Task<TDto> AddAsync(TDto dto);
-        Task<TDto> UpdateAsync(TDto dto);
+        Task<TDto> UpdateAsync(int id, TDto dto);
         Task<bool> DeleteAsync(int id);
     }
 }

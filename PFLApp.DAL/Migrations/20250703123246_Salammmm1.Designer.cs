@@ -12,8 +12,8 @@ using PFLApp.DAL.DataBase;
 namespace PFLApp.DAL.Migrations
 {
     [DbContext(typeof(PFLDBContext))]
-    [Migration("20250702092857_3cu")]
-    partial class _3cu
+    [Migration("20250703123246_Salammmm1")]
+    partial class Salammmm1
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -245,7 +245,7 @@ namespace PFLApp.DAL.Migrations
                     b.HasOne("PFLApp.DAL.Entity.Player", "Player")
                         .WithMany()
                         .HasForeignKey("PlayerId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.Navigation("Match");

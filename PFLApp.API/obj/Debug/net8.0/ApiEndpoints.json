@@ -1,5 +1,84 @@
 [
   {
+    "ContainingType": "PFLApp.API.Controllers.MatchesController",
+    "Method": "GetAll",
+    "RelativePath": "api/Matches",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PFLApp.API.Controllers.MatchesController",
+    "Method": "Create",
+    "RelativePath": "api/Matches",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "PFLApp.BLL.Models.MatchDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PFLApp.API.Controllers.MatchesController",
+    "Method": "GetById",
+    "RelativePath": "api/Matches/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PFLApp.API.Controllers.MatchesController",
+    "Method": "Update",
+    "RelativePath": "api/Matches/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "PFLApp.BLL.Models.MatchDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PFLApp.API.Controllers.MatchesController",
+    "Method": "Delete",
+    "RelativePath": "api/Matches/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "PFLApp.API.Controllers.PlayersController",
     "Method": "GetAll",
     "RelativePath": "api/Players",
@@ -36,6 +115,27 @@
       {
         "Name": "id",
         "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PFLApp.API.Controllers.PlayersController",
+    "Method": "Update",
+    "RelativePath": "api/Players/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "PFLApp.BLL.Models.PlayerDto",
         "IsRequired": true
       }
     ],
@@ -101,6 +201,27 @@
   },
   {
     "ContainingType": "PFLApp.API.Controllers.StadionsController",
+    "Method": "Update",
+    "RelativePath": "api/Stadions/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "PFLApp.BLL.Models.StadionDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PFLApp.API.Controllers.StadionsController",
     "Method": "Delete",
     "RelativePath": "api/Stadions/{id}",
     "HttpMethod": "DELETE",
@@ -143,22 +264,6 @@
   },
   {
     "ContainingType": "PFLApp.API.Controllers.TeamsController",
-    "Method": "Update",
-    "RelativePath": "api/Teams",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "dto",
-        "Type": "PFLApp.BLL.Models.TeamDto",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "PFLApp.API.Controllers.TeamsController",
     "Method": "GetById",
     "RelativePath": "api/Teams/{id}",
     "HttpMethod": "GET",
@@ -168,6 +273,27 @@
       {
         "Name": "id",
         "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PFLApp.API.Controllers.TeamsController",
+    "Method": "Update",
+    "RelativePath": "api/Teams/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "PFLApp.BLL.Models.TeamDto",
         "IsRequired": true
       }
     ],

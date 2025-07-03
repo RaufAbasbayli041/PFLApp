@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace PFLApp.DAL.Migrations
 {
     /// <inheritdoc />
-    public partial class asdasdsd : Migration
+    public partial class salam : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -61,6 +61,7 @@ namespace PFLApp.DAL.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     MatchDate = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    Week = table.Column<int>(type: "int", nullable: false),
                     HomeTeamId = table.Column<int>(type: "int", nullable: false),
                     AwayTeamId = table.Column<int>(type: "int", nullable: false),
                     HomeTeamScore = table.Column<int>(type: "int", nullable: false),

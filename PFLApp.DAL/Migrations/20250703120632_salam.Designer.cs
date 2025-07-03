@@ -12,8 +12,8 @@ using PFLApp.DAL.DataBase;
 namespace PFLApp.DAL.Migrations
 {
     [DbContext(typeof(PFLDBContext))]
-    [Migration("20250701175701_asdasdsd")]
-    partial class asdasdsd
+    [Migration("20250703120632_salam")]
+    partial class salam
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -56,6 +56,9 @@ namespace PFLApp.DAL.Migrations
 
                     b.Property<DateTime>("UpdatedAt")
                         .HasColumnType("datetime2");
+
+                    b.Property<int>("Week")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 
@@ -279,8 +282,7 @@ namespace PFLApp.DAL.Migrations
 
             modelBuilder.Entity("PFLApp.DAL.Entity.Stadion", b =>
                 {
-                    b.Navigation("Team")
-                        .IsRequired();
+                    b.Navigation("Team");
                 });
 
             modelBuilder.Entity("PFLApp.DAL.Entity.Team", b =>

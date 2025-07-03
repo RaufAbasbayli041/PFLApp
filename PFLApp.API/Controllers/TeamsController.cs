@@ -6,13 +6,13 @@ using PFLApp.DAL.Entity;
 
 namespace PFLApp.API.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
+    [Route("api/[controller]")]
     public class TeamsController : ControllerBase
     {
-        private readonly ITeamService _service;
+        private readonly IGenericService<Team, TeamDto> _service;
 
-        public TeamsController(ITeamService service)
+        public TeamsController(IGenericService<Team, TeamDto> service)
         {
             _service = service;
         }
@@ -23,8 +23,8 @@ namespace PFLApp.API.Controllers
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
         {
-            var team = await _service.GetByIdAsync(id);
-            return team == null ? NotFound() : Ok(team);
+            var result = await _service.GetByIdAsync(id);
+            return result == null ? NotFound() : Ok(result);
         }
 
         [HttpPost]
@@ -34,28 +34,19 @@ namespace PFLApp.API.Controllers
             return CreatedAtAction(nameof(GetById), new { id = created.Id }, created);
         }
 
+        [HttpPut("{id}")]
+        public async Task<IActionResult> Update(int id, [FromBody] TeamDto dto)
+        {
+            var updated = await _service.UpdateAsync(id, dto);
+            return Ok(updated);
+        }
+
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {
-            var success = await _service.DeleteAsync(id);
-            return success ? NoContent() : NotFound();
-        }
-        [HttpPut]
-        public async Task<IActionResult> Update([FromBody] TeamDto dto)
-        {
-            if (dto is null )
-            {
-                return BadRequest("Team data is null.");
-            }
-             
-            var updated = await _service.UpdateAsync(dto);
-            if (updated == null)
-            {
-                return NotFound($"Team with ID {dto.Id} not found.");
-            }
-            return Ok(updated);
-
-
+            var deleted = await _service.DeleteAsync(id);
+            return deleted ? Ok() : NotFound();
         }
     }
 }
+

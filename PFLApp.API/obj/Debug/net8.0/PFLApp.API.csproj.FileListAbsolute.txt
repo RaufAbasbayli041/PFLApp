@@ -455,3 +455,5 @@ C:\Users\ASUS\Desktop\Code Academy\C#\API\Homework\PFLApp\PFLApp.API\obj\Debug\n
 C:\Users\ASUS\Desktop\Code Academy\C#\API\Homework\PFLApp\PFLApp.API\obj\Debug\net8.0\ref\PFLApp.API.dll
 C:\Users\ASUS\Desktop\Code Academy\C#\API\Homework\PFLApp\PFLApp.API\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
 C:\Users\ASUS\Desktop\Code Academy\C#\API\Homework\PFLApp\PFLApp.API\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\user\Desktop\PFLApp\PFLApp.API\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+C:\Users\user\Desktop\PFLApp\PFLApp.API\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
