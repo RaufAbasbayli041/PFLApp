@@ -19,7 +19,7 @@ namespace PFLApp.API.Controllers
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
-            var result = await _service.GetAllAsync();
+            var result = await _service.GetAllWithScoreAsync();
             return Ok(result);
         }
 
@@ -39,10 +39,10 @@ namespace PFLApp.API.Controllers
             return CreatedAtAction(nameof(GetById), new { id = created.Id }, created);
         }
 
-        [HttpPut("{id}")]
-        public async Task<IActionResult> Update(int id, [FromBody] MatchDto dto)
+        [HttpPut]
+        public async Task<IActionResult> Update([FromBody] MatchDto dto)
         {
-            var updated = await _service.UpdateAsync(id, dto);
+            var updated = await _service.UpdateAsync(dto);
             return Ok(updated);
         }
 

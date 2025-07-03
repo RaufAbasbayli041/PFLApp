@@ -44,44 +44,10 @@
             "description": "OK"
           }
         }
-      }
-    },
-    "/api/Matches/{id}": {
-      "get": {
-        "tags": [
-          "Matches"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
       },
       "put": {
         "tags": [
           "Matches"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
         ],
         "requestBody": {
           "content": {
@@ -102,6 +68,29 @@
             }
           }
         },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Matches/{id}": {
+      "get": {
+        "tags": [
+          "Matches"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
         "responses": {
           "200": {
             "description": "OK"
@@ -169,44 +158,10 @@
             "description": "OK"
           }
         }
-      }
-    },
-    "/api/Players/{id}": {
-      "get": {
-        "tags": [
-          "Players"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
       },
       "put": {
         "tags": [
           "Players"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
         ],
         "requestBody": {
           "content": {
@@ -227,6 +182,29 @@
             }
           }
         },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Players/{id}": {
+      "get": {
+        "tags": [
+          "Players"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
         "responses": {
           "200": {
             "description": "OK"
@@ -294,44 +272,10 @@
             "description": "OK"
           }
         }
-      }
-    },
-    "/api/Stadions/{id}": {
-      "get": {
-        "tags": [
-          "Stadions"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
       },
       "put": {
         "tags": [
           "Stadions"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
         ],
         "requestBody": {
           "content": {
@@ -352,6 +296,29 @@
             }
           }
         },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Stadions/{id}": {
+      "get": {
+        "tags": [
+          "Stadions"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
         "responses": {
           "200": {
             "description": "OK"
@@ -419,44 +386,10 @@
             "description": "OK"
           }
         }
-      }
-    },
-    "/api/Teams/{id}": {
-      "get": {
-        "tags": [
-          "Teams"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
       },
       "put": {
         "tags": [
           "Teams"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
         ],
         "requestBody": {
           "content": {
@@ -477,6 +410,29 @@
             }
           }
         },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Teams/{id}": {
+      "get": {
+        "tags": [
+          "Teams"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
         "responses": {
           "200": {
             "description": "OK"
@@ -589,15 +545,6 @@
         },
         "additionalProperties": false
       },
-      "ResultEnum": {
-        "enum": [
-          1,
-          2,
-          3
-        ],
-        "type": "integer",
-        "format": "int32"
-      },
       "StadionDto": {
         "type": "object",
         "properties": {
@@ -623,7 +570,7 @@
             "type": "integer",
             "format": "int32"
           },
-          "code": {
+          "teamNumber": {
             "type": "integer",
             "format": "int32"
           },
@@ -635,27 +582,26 @@
             "type": "integer",
             "format": "int32"
           },
-          "result": {
-            "$ref": "#/components/schemas/ResultEnum"
+          "wins": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "draws": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "losses": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "goalsScored": {
+            "type": "integer",
+            "format": "int32"
           },
           "players": {
             "type": "array",
             "items": {
               "$ref": "#/components/schemas/PlayerDto"
-            },
-            "nullable": true
-          },
-          "homeMatches": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/MatchDto"
-            },
-            "nullable": true
-          },
-          "awayMatches": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/MatchDto"
             },
             "nullable": true
           }

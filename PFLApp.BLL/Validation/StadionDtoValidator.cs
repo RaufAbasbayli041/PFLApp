@@ -14,7 +14,7 @@ namespace PFLApp.BLL.Validation
         {
             RuleFor(x => x.Name).NotEmpty().MaximumLength(100);
             RuleFor(x => x.Capacity).GreaterThan(0);
-            RuleFor(x => x.Id).GreaterThan(0).WithMessage("Id must be greater than 0.");
+           // RuleFor(x => x.Id).GreaterThan(0).WithMessage("Id must be greater than 0.");
 
         }
     }

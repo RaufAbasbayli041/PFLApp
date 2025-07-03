@@ -13,7 +13,7 @@ namespace PFLApp.DAL.Repository.Implementation
 {
     public class GenericRepository<TEntity> : IGenericRepository<TEntity> where TEntity : BaseEntity, new()
     {
-        private readonly PFLDBContext _context;
+        protected readonly PFLDBContext _context;
         private readonly DbSet<TEntity> _dbSet;
 
         public GenericRepository(PFLDBContext context)
@@ -51,7 +51,7 @@ namespace PFLApp.DAL.Repository.Implementation
 
         public async Task<TEntity> GetByIdAsync(int id)
         {
-            var entity = await _dbSet.FindAsync(id);
+            var entity = await _dbSet.AsNoTracking().FirstOrDefaultAsync(i => i.Id == id && !i.IsDeleted);
             return entity;
         }
 

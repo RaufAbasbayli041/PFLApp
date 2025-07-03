@@ -34,10 +34,10 @@ namespace PFLApp.API.Controllers
             return CreatedAtAction(nameof(GetById), new { id = created.Id }, created);
         }
 
-        [HttpPut("{id}")]
-        public async Task<IActionResult> Update(int id, [FromBody] PlayerDto dto)
+        [HttpPut]
+        public async Task<IActionResult> Update([FromBody] PlayerDto dto)
         {
-            var updated = await _service.UpdateAsync(id, dto);
+            var updated = await _service.UpdateAsync(dto);
             return Ok(updated);
         }
 

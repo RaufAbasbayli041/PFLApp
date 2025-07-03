@@ -10,5 +10,6 @@ namespace PFLApp.BLL.Service.Interface
 {
     public interface IMatchService :IGenericService<Match, MatchDto> 
     {
+        Task<IEnumerable<MatchDto>> GetAllWithScoreAsync();
     }
 }

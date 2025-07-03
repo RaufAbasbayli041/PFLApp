@@ -182,18 +182,21 @@ namespace PFLApp.DAL.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");
 
+                    b.Property<int>("Draws")
+                        .HasColumnType("int");
+
                     b.Property<int>("GoalsScored")
                         .HasColumnType("int");
 
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 
+                    b.Property<int>("Losses")
+                        .HasColumnType("int");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("Result")
-                        .HasColumnType("int");
 
                     b.Property<int>("StadionId")
                         .HasColumnType("int");
@@ -204,10 +207,12 @@ namespace PFLApp.DAL.Migrations
                     b.Property<DateTime>("UpdatedAt")
                         .HasColumnType("datetime2");
 
+                    b.Property<int>("Wins")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
 
-                    b.HasIndex("StadionId")
-                        .IsUnique();
+                    b.HasIndex("StadionId");
 
                     b.ToTable("Teams");
                 });
@@ -215,13 +220,13 @@ namespace PFLApp.DAL.Migrations
             modelBuilder.Entity("PFLApp.DAL.Entity.Match", b =>
                 {
                     b.HasOne("PFLApp.DAL.Entity.Team", "AwayTeam")
-                        .WithMany("AwayMatches")
+                        .WithMany()
                         .HasForeignKey("AwayTeamId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.HasOne("PFLApp.DAL.Entity.Team", "HomeTeam")
-                        .WithMany("HomeMatches")
+                        .WithMany()
                         .HasForeignKey("HomeTeamId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
@@ -264,8 +269,8 @@ namespace PFLApp.DAL.Migrations
             modelBuilder.Entity("PFLApp.DAL.Entity.Team", b =>
                 {
                     b.HasOne("PFLApp.DAL.Entity.Stadion", "Stadion")
-                        .WithOne("Team")
-                        .HasForeignKey("PFLApp.DAL.Entity.Team", "StadionId")
+                        .WithMany("Teams")
+                        .HasForeignKey("StadionId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -279,15 +284,11 @@ namespace PFLApp.DAL.Migrations
 
             modelBuilder.Entity("PFLApp.DAL.Entity.Stadion", b =>
                 {
-                    b.Navigation("Team");
+                    b.Navigation("Teams");
                 });
 
             modelBuilder.Entity("PFLApp.DAL.Entity.Team", b =>
                 {
-                    b.Navigation("AwayMatches");
-
-                    b.Navigation("HomeMatches");
-
                     b.Navigation("Players");
                 });
 #pragma warning restore 612, 618

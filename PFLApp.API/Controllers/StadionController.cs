@@ -10,9 +10,9 @@ namespace PFLApp.API.Controllers
     [Route("api/[controller]")]
     public class StadionsController : ControllerBase
     {
-        private readonly IGenericService<Stadion, StadionDto> _service;
+       private readonly IStadionService _service;
 
-        public StadionsController(IGenericService<Stadion, StadionDto> service)
+        public StadionsController(IStadionService service)
         {
             _service = service;
         }
@@ -24,6 +24,7 @@ namespace PFLApp.API.Controllers
         public async Task<IActionResult> GetById(int id)
         {
             var result = await _service.GetByIdAsync(id);
+
             return result == null ? NotFound() : Ok(result);
         }
 
@@ -34,10 +35,19 @@ namespace PFLApp.API.Controllers
             return CreatedAtAction(nameof(GetById), new { id = created.Id }, created);
         }
 
-        [HttpPut("{id}")]
-        public async Task<IActionResult> Update(int id, [FromBody] StadionDto dto)
+        [HttpPut]
+        public async Task<IActionResult> Update([FromBody] StadionDto dto)
         {
-            var updated = await _service.UpdateAsync(id, dto);
+            if (dto == null || dto.Id <= 0)
+            {
+                return BadRequest("Invalid stadion data.");
+            }
+            var updated = await _service.UpdateAsync(dto);
+            if (updated == null)
+            {
+                return NotFound();
+            }
+
             return Ok(updated);
         }
 

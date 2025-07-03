@@ -13,14 +13,24 @@ using System.Threading.Tasks;
 
 namespace PFLApp.BLL.Service.Implementation
 {
-    public class MatchService :GenericService<Match, MatchDto>, IMatchService
+    public class MatchService : GenericService<Match, MatchDto>, IMatchService
     {
+        private readonly IMatchRepository _repository;
         public MatchService(IMatchRepository repository,IMapper mapper,IValidator<MatchDto> validator ) : base(repository, mapper,validator)
         {
-            
+            _repository = repository;
+
         }
 
-
-
+        public async Task<IEnumerable<MatchDto>> GetAllWithScoreAsync()
+        {
+            var data = await _repository.GetAllWithScoreAsync();
+            if (data == null || !data.Any())
+            {
+                return Enumerable.Empty<MatchDto>();
+            }
+            var result = _mapper.Map<IEnumerable<MatchDto>>(data);
+            return result;
+        }
     }
 }

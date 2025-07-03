@@ -10,6 +10,6 @@ namespace PFLApp.DAL.Entity
     {
         public string Name { get; set; } = null!;
         public int Capacity { get; set; }
-        public Team? Team { get; set; }       
+        public ICollection<Team> Teams { get; set; } = new List<Team>();
     }
 }

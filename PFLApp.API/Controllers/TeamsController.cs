@@ -10,9 +10,9 @@ namespace PFLApp.API.Controllers
     [Route("api/[controller]")]
     public class TeamsController : ControllerBase
     {
-        private readonly IGenericService<Team, TeamDto> _service;
+        private readonly ITeamService _service;
 
-        public TeamsController(IGenericService<Team, TeamDto> service)
+        public TeamsController(ITeamService service)
         {
             _service = service;
         }
@@ -34,10 +34,10 @@ namespace PFLApp.API.Controllers
             return CreatedAtAction(nameof(GetById), new { id = created.Id }, created);
         }
 
-        [HttpPut("{id}")]
-        public async Task<IActionResult> Update(int id, [FromBody] TeamDto dto)
+        [HttpPut]
+        public async Task<IActionResult> Update([FromBody] TeamDto dto)
         {
-            var updated = await _service.UpdateAsync(id, dto);
+            var updated = await _service.UpdateAsync(dto);
             return Ok(updated);
         }
 

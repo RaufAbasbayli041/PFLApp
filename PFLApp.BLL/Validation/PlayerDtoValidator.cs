@@ -12,7 +12,7 @@ namespace PFLApp.BLL.Validation
     {
         public PlayerDtoValidator()
         {
-            RuleFor(x => x.Id).GreaterThan(0).WithMessage("Id must be greater than 0.");
+           // RuleFor(x => x.Id).GreaterThan(0).WithMessage("Id must be greater than 0.");
             RuleFor(x => x.Name)
                 .Matches(@"^[a-zA-Z]+$").WithMessage("Name must contain only letters.").MaximumLength(100);
             RuleFor(x => x.Surname)

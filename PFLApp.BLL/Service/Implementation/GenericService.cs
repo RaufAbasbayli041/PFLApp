@@ -52,19 +52,19 @@ namespace PFLApp.BLL.Service.Repository
         public async Task<TDto> GetByIdAsync(int id)
         {
             var data = await _repository.GetByIdAsync(id);
-            if (data == null) return null;
+            if (data == null || data.IsDeleted) return null;
+
             return _mapper.Map<TDto>(data);
 
         }
 
-        public async Task<TDto> UpdateAsync(int id, TDto dto)
+        public async Task<TDto> UpdateAsync(TDto dto)
         {
-            var existing = await _repository.GetByIdAsync(id);
-            if (existing == null)  return null;
-            var entity = _mapper.Map(dto, existing);
-            var updated = await _repository.UpdateAsync(entity);
-            if (updated == null) return null;
-            return _mapper.Map<TDto>(updated);
+            var data = _mapper.Map<TEntity>(dto);
+            var updatedData = await _repository.UpdateAsync(data);
+            var result = _mapper.Map<TDto>(updatedData);
+            return result;
+
         }
     }
 }
