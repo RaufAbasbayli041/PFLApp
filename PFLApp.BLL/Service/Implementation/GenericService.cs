@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using FluentValidation;
 using PFLApp.BLL.Service.Interface;
 using PFLApp.DAL.Entity;
 using PFLApp.DAL.Repository.Interface;
@@ -10,16 +11,17 @@ using System.Threading.Tasks;
 
 namespace PFLApp.BLL.Service.Repository
 {
-    public class GenericService<TDto, TEntity> : IGenericService<TDto, TEntity>
-      where TEntity : class, new()
+    public class GenericService<TEntity,TDto> : IGenericService<TEntity, TDto> where TEntity : BaseEntity, new() where TDto : class
     {
-        private readonly IGenericRepository<TEntity> _repository;
-        private readonly IMapper _mapper;
+        protected readonly IGenericRepository<TEntity> _repository;
+        protected readonly IMapper _mapper;
+        private readonly IValidator<TDto> _validator;
 
-        public GenericService(IGenericRepository<TEntity> repository, IMapper mapper)
+        public GenericService(IGenericRepository<TEntity> repository, IMapper mapper, IValidator<TDto> validator)
         {
             _repository = repository;
             _mapper = mapper;
+            _validator = validator;
         }
 
         public async Task<IEnumerable<TDto>> GetAllAsync()
@@ -28,11 +30,7 @@ namespace PFLApp.BLL.Service.Repository
             return _mapper.Map<IEnumerable<TDto>>(entities);
         }
 
-        public async Task<TDto?> GetByIdAsync(int id)
-        {
-            var entity = await _repository.GetByIdAsync(id);
-            return entity == null ? default : _mapper.Map<TDto>(entity);
-        }
+      
 
         public async Task<TDto> AddAsync(TDto dto)
         {
@@ -46,8 +44,26 @@ namespace PFLApp.BLL.Service.Repository
             var entity = await _repository.GetByIdAsync(id);
             if (entity == null) return false;
 
-            await _repository.DeleteAsync(entity);
-            return true;
+            var deleted = await _repository.DeleteAsync(id);
+            return deleted;
+
+        }
+
+        public async Task<TDto> GetByIdAsync(int id)
+        {
+            var data = await _repository.GetByIdAsync(id);
+            if (data == null) return null;
+            return _mapper.Map<TDto>(data);
+
+        }
+
+        public async Task<TDto> UpdateAsync(TDto dto)
+        {
+            var data = _mapper.Map<TEntity>(dto);
+            var updated = await _repository.UpdateAsync(data);
+            if (updated == null) return null;
+            return _mapper.Map<TDto>(updated);
+
         }
     }
 }

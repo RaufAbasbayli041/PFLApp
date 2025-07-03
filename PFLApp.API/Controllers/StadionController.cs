@@ -6,13 +6,13 @@ using PFLApp.DAL.Entity;
 
 namespace PFLApp.API.Controllers
 {
-    [ApiController]
     [Route("api/[controller]")]
+    [ApiController]
     public class StadionsController : ControllerBase
     {
-        private readonly IGenericService<StadionDto, Stadion> _service;
+        private readonly IStadionService _service;
 
-        public StadionsController(IGenericService<StadionDto, Stadion> service)
+        public StadionsController(IStadionService service)
         {
             _service = service;
         }

@@ -17,8 +17,8 @@ namespace PFLApp.BLL.Models
         public string Name { get; set; }
         public int StadionId { get; set; }
         public ResultEnum Result { get; set; }
-        public ICollection<Player> Players { get; set; } = new List<Player>();
-        public ICollection<Match> HomeMatches { get; set; } = new List<Match>();
-        public ICollection<Match> AwayMatches { get; set; } = new List<Match>();
+        public ICollection<PlayerDto> Players { get; set; } 
+        public ICollection<MatchDto> HomeMatches { get; set; } 
+        public ICollection<MatchDto> AwayMatches { get; set; } 
     }
 }

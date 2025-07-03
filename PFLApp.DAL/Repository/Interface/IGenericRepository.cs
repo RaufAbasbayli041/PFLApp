@@ -1,4 +1,5 @@
-﻿using PFLApp.DAL.Entity;
+﻿using Microsoft.Extensions.Options;
+using PFLApp.DAL.Entity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,12 +8,12 @@ using System.Threading.Tasks;
 
 namespace PFLApp.DAL.Repository.Interface
 {
-    public interface IGenericRepository<T> where T : class
+    public interface IGenericRepository<TEntity> where TEntity : BaseEntity , new()
     {
-        Task<IEnumerable<T>> GetAllAsync();
-        Task<T?> GetByIdAsync(int id);
-        Task<T> AddAsync(T entity);
-        Task UpdateAsync(T entity);
-        Task DeleteAsync(T entity);
+        Task<IQueryable<TEntity>> GetAllAsync();
+        Task<TEntity> GetByIdAsync(int id); 
+        Task<TEntity> AddAsync(TEntity entity);
+        Task<TEntity> UpdateAsync(TEntity entity);
+        Task<bool> DeleteAsync(int id);
     }
 }

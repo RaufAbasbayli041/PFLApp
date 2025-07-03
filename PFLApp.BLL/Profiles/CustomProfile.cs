@@ -9,12 +9,12 @@ using System.Threading.Tasks;
 
 namespace PFLApp.BLL.Profiles
 {
-    public class CustomProfile :Profile
+    public class MapProfile :Profile
     {
-        public CustomProfile()
+        public MapProfile()
         {
             CreateMap<Team, TeamDto>().ReverseMap();
-            CreateMap<Team, TeamResponseDto>().ReverseMap();
+            CreateMap<Match, MatchDto>().ReverseMap();  
             CreateMap<Player, PlayerDto>().ReverseMap();
             CreateMap<Stadion, StadionDto>().ReverseMap();
 

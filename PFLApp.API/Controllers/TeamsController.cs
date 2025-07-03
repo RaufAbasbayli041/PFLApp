@@ -6,13 +6,13 @@ using PFLApp.DAL.Entity;
 
 namespace PFLApp.API.Controllers
 {
-    [ApiController]
     [Route("api/[controller]")]
+    [ApiController]
     public class TeamsController : ControllerBase
     {
-        private readonly IGenericService<TeamDto, Team> _service;
+        private readonly ITeamService _service;
 
-        public TeamsController(IGenericService<TeamDto, Team> service)
+        public TeamsController(ITeamService service)
         {
             _service = service;
         }
@@ -39,6 +39,23 @@ namespace PFLApp.API.Controllers
         {
             var success = await _service.DeleteAsync(id);
             return success ? NoContent() : NotFound();
+        }
+        [HttpPut]
+        public async Task<IActionResult> Update([FromBody] TeamDto dto)
+        {
+            if (dto is null )
+            {
+                return BadRequest("Team data is null.");
+            }
+             
+            var updated = await _service.UpdateAsync(dto);
+            if (updated == null)
+            {
+                return NotFound($"Team with ID {dto.Id} not found.");
+            }
+            return Ok(updated);
+
+
         }
     }
 }
