@@ -12,8 +12,8 @@ using PFLApp.DAL.DataBase;
 namespace PFLApp.DAL.Migrations
 {
     [DbContext(typeof(PFLDBContext))]
-    [Migration("20250703183834_dsader2asdsd")]
-    partial class dsader2asdsd
+    [Migration("20250705121306_dkjfhsaokfjsaof")]
+    partial class dkjfhsaokfjsaof
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -185,18 +185,21 @@ namespace PFLApp.DAL.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");
 
+                    b.Property<int>("Draws")
+                        .HasColumnType("int");
+
                     b.Property<int>("GoalsScored")
                         .HasColumnType("int");
 
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 
+                    b.Property<int>("Losses")
+                        .HasColumnType("int");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("Result")
-                        .HasColumnType("int");
 
                     b.Property<int>("StadionId")
                         .HasColumnType("int");
@@ -206,6 +209,9 @@ namespace PFLApp.DAL.Migrations
 
                     b.Property<DateTime>("UpdatedAt")
                         .HasColumnType("datetime2");
+
+                    b.Property<int>("Wins")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 

@@ -610,3 +610,7 @@ C:\Users\elnur.a\Desktop\Rauf\Visual Studio\API\PFLApp\PFLApp.API\obj\Debug\net8
 C:\Users\elnur.a\Desktop\Rauf\Visual Studio\API\PFLApp\PFLApp.API\obj\Debug\net8.0\PFLApp.API.pdb
 C:\Users\elnur.a\Desktop\Rauf\Visual Studio\API\PFLApp\PFLApp.API\obj\Debug\net8.0\PFLApp.API.genruntimeconfig.cache
 C:\Users\elnur.a\Desktop\Rauf\Visual Studio\API\PFLApp\PFLApp.API\obj\Debug\net8.0\ref\PFLApp.API.dll
+C:\Users\user\Desktop\PFLApp\PFLApp.API\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\user\Desktop\PFLApp\PFLApp.API\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\user\Desktop\PFLApp\PFLApp.API\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\user\Desktop\PFLApp\PFLApp.API\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json

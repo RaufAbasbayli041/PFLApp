@@ -120,18 +120,28 @@
 								<th scope="col">X</th>
 								</tr> *@
 								<tr>
-									@foreach (var team in Model)
-									{
-										<th scope="row">@team.Id</th>
+							<tbody>
+								@foreach (var team in Model)
+								{
+									var totalMatches = team.Wins + team.Draws + team.Losses;
+									var points = team.Wins * 3 + team.Draws;
+
+									<tr>
 										<td>@team.Name</td>
+										<td>@totalMatches</td>
 										<td>@team.Wins</td>
 										<td>@team.Draws</td>
 										<td>@team.Losses</td>
-										@* <td>@team.GoalsFor</td>
-										<td>@team.GoalsAgainst</td>
-										<td>@team.PointsFor</td>
-										<td>@team.PointsAgainst</td> *@
-									}
+										<td>@team.GoalsScored</td>
+										<td>0</td> 
+										<td>@team.GoalsScored</td>
+										<td>@points</td>
+									</tr>
+								}
+							</tbody>
+
+								}
+
 								</tr>
 								<tr>
 									<th scope="row">3</th>

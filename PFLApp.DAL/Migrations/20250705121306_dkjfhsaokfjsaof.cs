@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace PFLApp.DAL.Migrations
 {
     /// <inheritdoc />
-    public partial class salam : Migration
+    public partial class dkjfhsaokfjsaof : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -36,9 +36,11 @@ namespace PFLApp.DAL.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     TeamNumber = table.Column<int>(type: "int", nullable: false),
-                    Result = table.Column<int>(type: "int", nullable: false),
-                    StadionId = table.Column<int>(type: "int", nullable: false),
+                    Wins = table.Column<int>(type: "int", nullable: false),
+                    Draws = table.Column<int>(type: "int", nullable: false),
+                    Losses = table.Column<int>(type: "int", nullable: false),
                     GoalsScored = table.Column<int>(type: "int", nullable: false),
+                    StadionId = table.Column<int>(type: "int", nullable: false),
                     CreatedAt = table.Column<DateTime>(type: "datetime2", nullable: false),
                     UpdatedAt = table.Column<DateTime>(type: "datetime2", nullable: false),
                     IsDeleted = table.Column<bool>(type: "bit", nullable: false)
@@ -140,7 +142,7 @@ namespace PFLApp.DAL.Migrations
                         column: x => x.PlayerId,
                         principalTable: "Players",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.CreateIndex(
@@ -171,8 +173,7 @@ namespace PFLApp.DAL.Migrations
             migrationBuilder.CreateIndex(
                 name: "IX_Teams_StadionId",
                 table: "Teams",
-                column: "StadionId",
-                unique: true);
+                column: "StadionId");
         }
 
         /// <inheritdoc />

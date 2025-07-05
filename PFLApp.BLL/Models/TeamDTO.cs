@@ -14,7 +14,7 @@ namespace PFLApp.BLL.Models
     {
         public int Id { get; set; }
         public int TeamNumber { get; set; }
-        public string Name { get; set; }
+        public string? Name { get; set; }
         public int StadionId { get; set; }
 
         public int Wins { get; set; } = 0;

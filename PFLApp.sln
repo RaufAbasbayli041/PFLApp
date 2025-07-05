@@ -9,8 +9,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PFLApp.BLL", "PFLApp.BLL\PF
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PFLApp.API", "PFLApp.API\PFLApp.API.csproj", "{C9E8A25D-9DD5-41EA-9C70-B31B5F24F01F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PFLApp.UI", "PFLApp.MVC\PFLApp.UI.csproj", "{F8D73FEE-A86E-49A9-B38E-BD656C282B20}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,10 +27,6 @@ Global
 		{C9E8A25D-9DD5-41EA-9C70-B31B5F24F01F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9E8A25D-9DD5-41EA-9C70-B31B5F24F01F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9E8A25D-9DD5-41EA-9C70-B31B5F24F01F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F8D73FEE-A86E-49A9-B38E-BD656C282B20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F8D73FEE-A86E-49A9-B38E-BD656C282B20}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F8D73FEE-A86E-49A9-B38E-BD656C282B20}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F8D73FEE-A86E-49A9-B38E-BD656C282B20}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -5,7 +5,7 @@
 namespace PFLApp.DAL.Migrations
 {
     /// <inheritdoc />
-    public partial class dsader2asd : Migration
+    public partial class saijkfsakfsa : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

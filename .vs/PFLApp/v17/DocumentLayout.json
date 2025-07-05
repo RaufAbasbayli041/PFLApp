@@ -1,18 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\elnur.a\\Desktop\\Rauf\\Visual Studio\\API\\PFLApp\\",
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\PFLApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F8D73FEE-A86E-49A9-B38E-BD656C282B20}|PFLApp.MVC\\PFLApp.UI.csproj|c:\\users\\elnur.a\\desktop\\rauf\\visual studio\\api\\pflapp\\pflapp.mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F8D73FEE-A86E-49A9-B38E-BD656C282B20}|PFLApp.MVC\\PFLApp.UI.csproj|solutionrelative:pflapp.mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C9E8A25D-9DD5-41EA-9C70-B31B5F24F01F}|PFLApp.API\\PFLApp.API.csproj|c:\\users\\user\\desktop\\pflapp\\pflapp.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C9E8A25D-9DD5-41EA-9C70-B31B5F24F01F}|PFLApp.API\\PFLApp.API.csproj|solutionrelative:pflapp.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8D73FEE-A86E-49A9-B38E-BD656C282B20}|PFLApp.MVC\\PFLApp.UI.csproj|c:\\users\\elnur.a\\desktop\\rauf\\visual studio\\api\\pflapp\\pflapp.mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F8D73FEE-A86E-49A9-B38E-BD656C282B20}|PFLApp.MVC\\PFLApp.UI.csproj|solutionrelative:pflapp.mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C9E8A25D-9DD5-41EA-9C70-B31B5F24F01F}|PFLApp.API\\PFLApp.API.csproj|c:\\users\\user\\desktop\\pflapp\\pflapp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9E8A25D-9DD5-41EA-9C70-B31B5F24F01F}|PFLApp.API\\PFLApp.API.csproj|solutionrelative:pflapp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8D73FEE-A86E-49A9-B38E-BD656C282B20}|PFLApp.MVC\\PFLApp.UI.csproj|c:\\users\\elnur.a\\desktop\\rauf\\visual studio\\api\\pflapp\\pflapp.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8D73FEE-A86E-49A9-B38E-BD656C282B20}|PFLApp.MVC\\PFLApp.UI.csproj|solutionrelative:pflapp.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D2A14FA7-0CE8-4D68-A84E-5E45ADEC7F23}|PFLApp.BLL\\PFLApp.BLL.csproj|c:\\users\\user\\desktop\\pflapp\\pflapp.bll\\models\\teamdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2A14FA7-0CE8-4D68-A84E-5E45ADEC7F23}|PFLApp.BLL\\PFLApp.BLL.csproj|solutionrelative:pflapp.bll\\models\\teamdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,41 +30,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\elnur.a\\Desktop\\Rauf\\Visual Studio\\API\\PFLApp\\PFLApp.MVC\\Program.cs",
-              "RelativeDocumentMoniker": "PFLApp.MVC\\Program.cs",
-              "ToolTip": "C:\\Users\\elnur.a\\Desktop\\Rauf\\Visual Studio\\API\\PFLApp\\PFLApp.MVC\\Program.cs",
-              "RelativeToolTip": "PFLApp.MVC\\Program.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAwwDcAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\PFLApp\\PFLApp.API\\Program.cs",
+              "RelativeDocumentMoniker": "PFLApp.API\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\PFLApp\\PFLApp.API\\Program.cs",
+              "RelativeToolTip": "PFLApp.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAABhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T08:49:01.558Z",
+              "WhenOpened": "2025-07-05T12:39:40.987Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\elnur.a\\Desktop\\Rauf\\Visual Studio\\API\\PFLApp\\PFLApp.MVC\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "PFLApp.MVC\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\elnur.a\\Desktop\\Rauf\\Visual Studio\\API\\PFLApp\\PFLApp.MVC\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "PFLApp.MVC\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAGcAAAAAAAAAAAAowHUAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-05T08:46:58.273Z",
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\PFLApp\\PFLApp.API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "PFLApp.API\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\user\\Desktop\\PFLApp\\PFLApp.API\\appsettings.Development.json",
+              "RelativeToolTip": "PFLApp.API\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-05T12:39:04.33Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\elnur.a\\Desktop\\Rauf\\Visual Studio\\API\\PFLApp\\PFLApp.MVC\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "PFLApp.MVC\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\elnur.a\\Desktop\\Rauf\\Visual Studio\\API\\PFLApp\\PFLApp.MVC\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "PFLApp.MVC\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-05T08:41:14.598Z",
+              "DocumentIndex": 2,
+              "Title": "TeamDTO.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\PFLApp\\PFLApp.BLL\\Models\\TeamDTO.cs",
+              "RelativeDocumentMoniker": "PFLApp.BLL\\Models\\TeamDTO.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\PFLApp\\PFLApp.BLL\\Models\\TeamDTO.cs",
+              "RelativeToolTip": "PFLApp.BLL\\Models\\TeamDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T12:20:03.414Z",
               "EditorCaption": ""
             }
           ]

@@ -58,3 +58,11 @@ wwwroot\lib\jquery-validation\LICENSE.md
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
 wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+wwwroot\UI\assets\demo\chart-area-demo.js
+wwwroot\UI\assets\demo\chart-bar-demo.js
+wwwroot\UI\assets\demo\chart-pie-demo.js
+wwwroot\UI\assets\demo\datatables-demo.js
+wwwroot\UI\assets\img\error-404-monochrome.svg
+wwwroot\UI\css\styles.css
+wwwroot\UI\js\datatables-simple-demo.js
+wwwroot\UI\js\scripts.js
