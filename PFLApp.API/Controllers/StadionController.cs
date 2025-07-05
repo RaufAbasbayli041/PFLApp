@@ -1,8 +1,6 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using PFLApp.BLL.Models;
 using PFLApp.BLL.Service.Interface;
-using PFLApp.DAL.Entity;
 
 namespace PFLApp.API.Controllers
 {
@@ -10,7 +8,7 @@ namespace PFLApp.API.Controllers
     [Route("api/[controller]")]
     public class StadionsController : ControllerBase
     {
-       private readonly IStadionService _service;
+        private readonly IStadionService _service;
 
         public StadionsController(IStadionService service)
         {

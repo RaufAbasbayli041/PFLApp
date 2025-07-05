@@ -1,14 +1,4 @@
-﻿using PFLApp.DAL.Entity;
-
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Text.RegularExpressions;
-using System.Threading.Tasks;
-using Match = PFLApp.DAL.Entity.Match;
-
-namespace PFLApp.BLL.Models
+﻿namespace PFLApp.BLL.Models
 {
     public record TeamDto
     {

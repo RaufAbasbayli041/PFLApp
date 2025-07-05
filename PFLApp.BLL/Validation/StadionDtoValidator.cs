@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using FluentValidation;
+﻿using FluentValidation;
 using PFLApp.BLL.Models;
 
 namespace PFLApp.BLL.Validation
@@ -14,7 +9,7 @@ namespace PFLApp.BLL.Validation
         {
             RuleFor(x => x.Name).NotEmpty().MaximumLength(100);
             RuleFor(x => x.Capacity).GreaterThan(0);
-           // RuleFor(x => x.Id).GreaterThan(0).WithMessage("Id must be greater than 0.");
+            // RuleFor(x => x.Id).GreaterThan(0).WithMessage("Id must be greater than 0.");
 
         }
     }

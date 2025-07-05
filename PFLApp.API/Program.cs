@@ -2,15 +2,10 @@
 using FluentValidation;
 using FluentValidation.AspNetCore;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
 using PFLApp.BLL.Extensions;
 using PFLApp.BLL.Profiles;
-using PFLApp.BLL.Service.Interface;
-using PFLApp.BLL.Service.Repository;
 using PFLApp.BLL.Validation;
 using PFLApp.DAL.DataBase;
-using PFLApp.DAL.Repository.Implementation;
-using PFLApp.DAL.Repository.Interface;
 
 
 

@@ -1,5 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using PFLApp.BLL.Models;
 using PFLApp.BLL.Service.Interface;
 using PFLApp.DAL.Entity;
