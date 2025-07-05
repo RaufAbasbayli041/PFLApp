@@ -15,6 +15,7 @@ namespace PFLApp.DAL.Entity
         public int Draws { get; set; } = 0;
         public int Losses { get; set; } = 0;
         public int GoalsScored { get; set; } = 0;
+        public int AwayTeamId { get; set; }
         public int StadionId { get; set; }
         public Stadion Stadion { get; set; }        
         public ICollection<Player> Players { get; set; } = new List<Player>();

@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\PFLApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C9E8A25D-9DD5-41EA-9C70-B31B5F24F01F}|PFLApp.API\\PFLApp.API.csproj|c:\\users\\user\\desktop\\pflapp\\pflapp.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C9E8A25D-9DD5-41EA-9C70-B31B5F24F01F}|PFLApp.API\\PFLApp.API.csproj|solutionrelative:pflapp.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{E73FF15C-9A4C-4340-A9D2-1D05B8EF7B64}|PFLApp.DAL\\PFLApp.DAL.csproj|c:\\users\\user\\desktop\\pflapp\\pflapp.dal\\entity\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E73FF15C-9A4C-4340-A9D2-1D05B8EF7B64}|PFLApp.DAL\\PFLApp.DAL.csproj|solutionrelative:pflapp.dal\\entity\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2A14FA7-0CE8-4D68-A84E-5E45ADEC7F23}|PFLApp.BLL\\PFLApp.BLL.csproj|c:\\users\\user\\desktop\\pflapp\\pflapp.bll\\models\\matchdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2A14FA7-0CE8-4D68-A84E-5E45ADEC7F23}|PFLApp.BLL\\PFLApp.BLL.csproj|solutionrelative:pflapp.bll\\models\\matchdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C9E8A25D-9DD5-41EA-9C70-B31B5F24F01F}|PFLApp.API\\PFLApp.API.csproj|c:\\users\\user\\desktop\\pflapp\\pflapp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C9E8A25D-9DD5-41EA-9C70-B31B5F24F01F}|PFLApp.API\\PFLApp.API.csproj|solutionrelative:pflapp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2A14FA7-0CE8-4D68-A84E-5E45ADEC7F23}|PFLApp.BLL\\PFLApp.BLL.csproj|c:\\users\\user\\desktop\\pflapp\\pflapp.bll\\models\\teamdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2A14FA7-0CE8-4D68-A84E-5E45ADEC7F23}|PFLApp.BLL\\PFLApp.BLL.csproj|solutionrelative:pflapp.bll\\models\\teamdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,12 +25,8 @@
           "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\PFLApp\\PFLApp.API\\Program.cs",
               "RelativeDocumentMoniker": "PFLApp.API\\Program.cs",
@@ -39,33 +35,38 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAABhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-05T12:39:40.987Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MatchDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\PFLApp\\PFLApp.BLL\\Models\\MatchDto.cs",
+              "RelativeDocumentMoniker": "PFLApp.BLL\\Models\\MatchDto.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\PFLApp\\PFLApp.BLL\\Models\\MatchDto.cs",
+              "RelativeToolTip": "PFLApp.BLL\\Models\\MatchDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T12:55:17.165Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\PFLApp\\PFLApp.API\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "PFLApp.API\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\user\\Desktop\\PFLApp\\PFLApp.API\\appsettings.Development.json",
-              "RelativeToolTip": "PFLApp.API\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-05T12:39:04.33Z",
+              "Title": "Team.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\PFLApp\\PFLApp.DAL\\Entity\\Team.cs",
+              "RelativeDocumentMoniker": "PFLApp.DAL\\Entity\\Team.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\PFLApp\\PFLApp.DAL\\Entity\\Team.cs",
+              "RelativeToolTip": "PFLApp.DAL\\Entity\\Team.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T12:54:52.091Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TeamDTO.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\PFLApp\\PFLApp.BLL\\Models\\TeamDTO.cs",
-              "RelativeDocumentMoniker": "PFLApp.BLL\\Models\\TeamDTO.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\PFLApp\\PFLApp.BLL\\Models\\TeamDTO.cs",
-              "RelativeToolTip": "PFLApp.BLL\\Models\\TeamDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T12:20:03.414Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             }
           ]
         }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PFLApp.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+83e40c81d80a22ded9c22afbc563fa54b352686d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a66edf2085e7ea5cb299653917d1cad53e1b155d")]
 [assembly: System.Reflection.AssemblyProductAttribute("PFLApp.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PFLApp.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
