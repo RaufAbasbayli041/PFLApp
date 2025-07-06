@@ -5,7 +5,7 @@
 namespace PFLApp.DAL.Migrations
 {
     /// <inheritdoc />
-    public partial class saijkfsakfsa : Migration
+    public partial class rwerwer : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

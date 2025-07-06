@@ -12,8 +12,8 @@ using PFLApp.DAL.DataBase;
 namespace PFLApp.DAL.Migrations
 {
     [DbContext(typeof(PFLDBContext))]
-    [Migration("20250705121306_dkjfhsaokfjsaof")]
-    partial class dkjfhsaokfjsaof
+    [Migration("20250705191106_rwerwerwqwedg")]
+    partial class rwerwerwqwedg
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

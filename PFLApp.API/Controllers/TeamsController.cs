@@ -1,6 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 using PFLApp.BLL.Models;
 using PFLApp.BLL.Service.Interface;
+using PFLApp.DAL.Entity;
 
 namespace PFLApp.API.Controllers
 {
@@ -29,6 +31,7 @@ namespace PFLApp.API.Controllers
         public async Task<IActionResult> Create([FromBody] TeamDto dto)
         {
             var created = await _service.AddAsync(dto);
+           
             return CreatedAtAction(nameof(GetById), new { id = created.Id }, created);
         }
 

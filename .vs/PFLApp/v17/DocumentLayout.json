@@ -1,14 +1,70 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\PFLApp\\",
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\Code Academy\\C#\\API\\Homework\\PFLApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C9E8A25D-9DD5-41EA-9C70-B31B5F24F01F}|PFLApp.API\\PFLApp.API.csproj|c:\\users\\user\\desktop\\pflapp\\pflapp.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C9E8A25D-9DD5-41EA-9C70-B31B5F24F01F}|PFLApp.API\\PFLApp.API.csproj|solutionrelative:pflapp.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{E73FF15C-9A4C-4340-A9D2-1D05B8EF7B64}|PFLApp.DAL\\PFLApp.DAL.csproj|c:\\users\\asus\\desktop\\code academy\\c#\\api\\homework\\pflapp\\pflapp.dal\\entity\\match.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E73FF15C-9A4C-4340-A9D2-1D05B8EF7B64}|PFLApp.DAL\\PFLApp.DAL.csproj|solutionrelative:pflapp.dal\\entity\\match.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9E8A25D-9DD5-41EA-9C70-B31B5F24F01F}|PFLApp.API\\PFLApp.API.csproj|c:\\users\\user\\desktop\\pflapp\\pflapp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9E8A25D-9DD5-41EA-9C70-B31B5F24F01F}|PFLApp.API\\PFLApp.API.csproj|solutionrelative:pflapp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E73FF15C-9A4C-4340-A9D2-1D05B8EF7B64}|PFLApp.DAL\\PFLApp.DAL.csproj|c:\\users\\asus\\desktop\\code academy\\c#\\api\\homework\\pflapp\\pflapp.dal\\entity\\matchscorer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E73FF15C-9A4C-4340-A9D2-1D05B8EF7B64}|PFLApp.DAL\\PFLApp.DAL.csproj|solutionrelative:pflapp.dal\\entity\\matchscorer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2A14FA7-0CE8-4D68-A84E-5E45ADEC7F23}|PFLApp.BLL\\PFLApp.BLL.csproj|c:\\users\\asus\\desktop\\code academy\\c#\\api\\homework\\pflapp\\pflapp.bll\\service\\implementation\\matchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2A14FA7-0CE8-4D68-A84E-5E45ADEC7F23}|PFLApp.BLL\\PFLApp.BLL.csproj|solutionrelative:pflapp.bll\\service\\implementation\\matchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9E8A25D-9DD5-41EA-9C70-B31B5F24F01F}|PFLApp.API\\PFLApp.API.csproj|c:\\users\\asus\\desktop\\code academy\\c#\\api\\homework\\pflapp\\pflapp.api\\controllers\\matchescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9E8A25D-9DD5-41EA-9C70-B31B5F24F01F}|PFLApp.API\\PFLApp.API.csproj|solutionrelative:pflapp.api\\controllers\\matchescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E73FF15C-9A4C-4340-A9D2-1D05B8EF7B64}|PFLApp.DAL\\PFLApp.DAL.csproj|c:\\users\\asus\\desktop\\code academy\\c#\\api\\homework\\pflapp\\pflapp.dal\\entity\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E73FF15C-9A4C-4340-A9D2-1D05B8EF7B64}|PFLApp.DAL\\PFLApp.DAL.csproj|solutionrelative:pflapp.dal\\entity\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2A14FA7-0CE8-4D68-A84E-5E45ADEC7F23}|PFLApp.BLL\\PFLApp.BLL.csproj|c:\\users\\asus\\desktop\\code academy\\c#\\api\\homework\\pflapp\\pflapp.bll\\models\\playerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2A14FA7-0CE8-4D68-A84E-5E45ADEC7F23}|PFLApp.BLL\\PFLApp.BLL.csproj|solutionrelative:pflapp.bll\\models\\playerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2A14FA7-0CE8-4D68-A84E-5E45ADEC7F23}|PFLApp.BLL\\PFLApp.BLL.csproj|c:\\users\\asus\\desktop\\code academy\\c#\\api\\homework\\pflapp\\pflapp.bll\\models\\teamdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2A14FA7-0CE8-4D68-A84E-5E45ADEC7F23}|PFLApp.BLL\\PFLApp.BLL.csproj|solutionrelative:pflapp.bll\\models\\teamdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2A14FA7-0CE8-4D68-A84E-5E45ADEC7F23}|PFLApp.BLL\\PFLApp.BLL.csproj|c:\\users\\asus\\desktop\\code academy\\c#\\api\\homework\\pflapp\\pflapp.bll\\validation\\matchdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2A14FA7-0CE8-4D68-A84E-5E45ADEC7F23}|PFLApp.BLL\\PFLApp.BLL.csproj|solutionrelative:pflapp.bll\\validation\\matchdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2A14FA7-0CE8-4D68-A84E-5E45ADEC7F23}|PFLApp.BLL\\PFLApp.BLL.csproj|c:\\users\\asus\\desktop\\code academy\\c#\\api\\homework\\pflapp\\pflapp.bll\\models\\matchdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2A14FA7-0CE8-4D68-A84E-5E45ADEC7F23}|PFLApp.BLL\\PFLApp.BLL.csproj|solutionrelative:pflapp.bll\\models\\matchdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E73FF15C-9A4C-4340-A9D2-1D05B8EF7B64}|PFLApp.DAL\\PFLApp.DAL.csproj|c:\\users\\asus\\desktop\\code academy\\c#\\api\\homework\\pflapp\\pflapp.dal\\repository\\implementation\\matchrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E73FF15C-9A4C-4340-A9D2-1D05B8EF7B64}|PFLApp.DAL\\PFLApp.DAL.csproj|solutionrelative:pflapp.dal\\repository\\implementation\\matchrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E73FF15C-9A4C-4340-A9D2-1D05B8EF7B64}|PFLApp.DAL\\PFLApp.DAL.csproj|c:\\users\\asus\\desktop\\code academy\\c#\\api\\homework\\pflapp\\pflapp.dal\\repository\\interface\\imatchrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E73FF15C-9A4C-4340-A9D2-1D05B8EF7B64}|PFLApp.DAL\\PFLApp.DAL.csproj|solutionrelative:pflapp.dal\\repository\\interface\\imatchrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2A14FA7-0CE8-4D68-A84E-5E45ADEC7F23}|PFLApp.BLL\\PFLApp.BLL.csproj|c:\\users\\asus\\desktop\\code academy\\c#\\api\\homework\\pflapp\\pflapp.bll\\service\\interface\\imatchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2A14FA7-0CE8-4D68-A84E-5E45ADEC7F23}|PFLApp.BLL\\PFLApp.BLL.csproj|solutionrelative:pflapp.bll\\service\\interface\\imatchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9E8A25D-9DD5-41EA-9C70-B31B5F24F01F}|PFLApp.API\\PFLApp.API.csproj|c:\\users\\asus\\desktop\\code academy\\c#\\api\\homework\\pflapp\\pflapp.api\\controllers\\teamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9E8A25D-9DD5-41EA-9C70-B31B5F24F01F}|PFLApp.API\\PFLApp.API.csproj|solutionrelative:pflapp.api\\controllers\\teamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2A14FA7-0CE8-4D68-A84E-5E45ADEC7F23}|PFLApp.BLL\\PFLApp.BLL.csproj|c:\\users\\asus\\desktop\\code academy\\c#\\api\\homework\\pflapp\\pflapp.bll\\models\\stadiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2A14FA7-0CE8-4D68-A84E-5E45ADEC7F23}|PFLApp.BLL\\PFLApp.BLL.csproj|solutionrelative:pflapp.bll\\models\\stadiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2A14FA7-0CE8-4D68-A84E-5E45ADEC7F23}|PFLApp.BLL\\PFLApp.BLL.csproj|c:\\users\\asus\\desktop\\code academy\\c#\\api\\homework\\pflapp\\pflapp.bll\\models\\matchscorerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2A14FA7-0CE8-4D68-A84E-5E45ADEC7F23}|PFLApp.BLL\\PFLApp.BLL.csproj|solutionrelative:pflapp.bll\\models\\matchscorerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2A14FA7-0CE8-4D68-A84E-5E45ADEC7F23}|PFLApp.BLL\\PFLApp.BLL.csproj|c:\\users\\asus\\desktop\\code academy\\c#\\api\\homework\\pflapp\\pflapp.bll\\profiles\\customprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2A14FA7-0CE8-4D68-A84E-5E45ADEC7F23}|PFLApp.BLL\\PFLApp.BLL.csproj|solutionrelative:pflapp.bll\\profiles\\customprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,38 +74,208 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 14,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PlayerDto.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Code Academy\\C#\\API\\Homework\\PFLApp\\PFLApp.BLL\\Models\\PlayerDto.cs",
+              "RelativeDocumentMoniker": "PFLApp.BLL\\Models\\PlayerDto.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Code Academy\\C#\\API\\Homework\\PFLApp\\PFLApp.BLL\\Models\\PlayerDto.cs",
+              "RelativeToolTip": "PFLApp.BLL\\Models\\PlayerDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T05:43:00.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MatchDtoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Code Academy\\C#\\API\\Homework\\PFLApp\\PFLApp.BLL\\Validation\\MatchDtoValidator.cs",
+              "RelativeDocumentMoniker": "PFLApp.BLL\\Validation\\MatchDtoValidator.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Code Academy\\C#\\API\\Homework\\PFLApp\\PFLApp.BLL\\Validation\\MatchDtoValidator.cs",
+              "RelativeToolTip": "PFLApp.BLL\\Validation\\MatchDtoValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwoAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T04:06:31.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MatchRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Code Academy\\C#\\API\\Homework\\PFLApp\\PFLApp.DAL\\Repository\\Implementation\\MatchRepository.cs",
+              "RelativeDocumentMoniker": "PFLApp.DAL\\Repository\\Implementation\\MatchRepository.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Code Academy\\C#\\API\\Homework\\PFLApp\\PFLApp.DAL\\Repository\\Implementation\\MatchRepository.cs",
+              "RelativeToolTip": "PFLApp.DAL\\Repository\\Implementation\\MatchRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T03:37:02.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IMatchRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Code Academy\\C#\\API\\Homework\\PFLApp\\PFLApp.DAL\\Repository\\Interface\\IMatchRepository.cs",
+              "RelativeDocumentMoniker": "PFLApp.DAL\\Repository\\Interface\\IMatchRepository.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Code Academy\\C#\\API\\Homework\\PFLApp\\PFLApp.DAL\\Repository\\Interface\\IMatchRepository.cs",
+              "RelativeToolTip": "PFLApp.DAL\\Repository\\Interface\\IMatchRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T03:36:30.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IMatchService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Code Academy\\C#\\API\\Homework\\PFLApp\\PFLApp.BLL\\Service\\Interface\\IMatchService.cs",
+              "RelativeDocumentMoniker": "PFLApp.BLL\\Service\\Interface\\IMatchService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Code Academy\\C#\\API\\Homework\\PFLApp\\PFLApp.BLL\\Service\\Interface\\IMatchService.cs",
+              "RelativeToolTip": "PFLApp.BLL\\Service\\Interface\\IMatchService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T03:34:58.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TeamsController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Code Academy\\C#\\API\\Homework\\PFLApp\\PFLApp.API\\Controllers\\TeamsController.cs",
+              "RelativeDocumentMoniker": "PFLApp.API\\Controllers\\TeamsController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Code Academy\\C#\\API\\Homework\\PFLApp\\PFLApp.API\\Controllers\\TeamsController.cs",
+              "RelativeToolTip": "PFLApp.API\\Controllers\\TeamsController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T03:27:55.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Team.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Code Academy\\C#\\API\\Homework\\PFLApp\\PFLApp.DAL\\Entity\\Team.cs",
+              "RelativeDocumentMoniker": "PFLApp.DAL\\Entity\\Team.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Code Academy\\C#\\API\\Homework\\PFLApp\\PFLApp.DAL\\Entity\\Team.cs",
+              "RelativeToolTip": "PFLApp.DAL\\Entity\\Team.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T03:23:49.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TeamDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Code Academy\\C#\\API\\Homework\\PFLApp\\PFLApp.BLL\\Models\\TeamDTO.cs",
+              "RelativeDocumentMoniker": "PFLApp.BLL\\Models\\TeamDTO.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Code Academy\\C#\\API\\Homework\\PFLApp\\PFLApp.BLL\\Models\\TeamDTO.cs",
+              "RelativeToolTip": "PFLApp.BLL\\Models\\TeamDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T03:26:57.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "StadionDto.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Code Academy\\C#\\API\\Homework\\PFLApp\\PFLApp.BLL\\Models\\StadionDto.cs",
+              "RelativeDocumentMoniker": "PFLApp.BLL\\Models\\StadionDto.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Code Academy\\C#\\API\\Homework\\PFLApp\\PFLApp.BLL\\Models\\StadionDto.cs",
+              "RelativeToolTip": "PFLApp.BLL\\Models\\StadionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T03:26:56.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MatchScorerDto.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Code Academy\\C#\\API\\Homework\\PFLApp\\PFLApp.BLL\\Models\\MatchScorerDto.cs",
+              "RelativeDocumentMoniker": "PFLApp.BLL\\Models\\MatchScorerDto.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Code Academy\\C#\\API\\Homework\\PFLApp\\PFLApp.BLL\\Models\\MatchScorerDto.cs",
+              "RelativeToolTip": "PFLApp.BLL\\Models\\MatchScorerDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T03:26:54.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MatchDto.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Code Academy\\C#\\API\\Homework\\PFLApp\\PFLApp.BLL\\Models\\MatchDto.cs",
+              "RelativeDocumentMoniker": "PFLApp.BLL\\Models\\MatchDto.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Code Academy\\C#\\API\\Homework\\PFLApp\\PFLApp.BLL\\Models\\MatchDto.cs",
+              "RelativeToolTip": "PFLApp.BLL\\Models\\MatchDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T03:26:53.797Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\PFLApp\\PFLApp.API\\Program.cs",
-              "RelativeDocumentMoniker": "PFLApp.API\\Program.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\PFLApp\\PFLApp.API\\Program.cs",
-              "RelativeToolTip": "PFLApp.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABkAAAAAAAAAA==",
+              "Title": "MatchScorer.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Code Academy\\C#\\API\\Homework\\PFLApp\\PFLApp.DAL\\Entity\\MatchScorer.cs",
+              "RelativeDocumentMoniker": "PFLApp.DAL\\Entity\\MatchScorer.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Code Academy\\C#\\API\\Homework\\PFLApp\\PFLApp.DAL\\Entity\\MatchScorer.cs",
+              "RelativeToolTip": "PFLApp.DAL\\Entity\\MatchScorer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T12:39:40.987Z",
-              "IsPinned": true,
+              "WhenOpened": "2025-07-06T03:26:48.242Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CustomProfile.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Code Academy\\C#\\API\\Homework\\PFLApp\\PFLApp.BLL\\Profiles\\CustomProfile.cs",
+              "RelativeDocumentMoniker": "PFLApp.BLL\\Profiles\\CustomProfile.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Code Academy\\C#\\API\\Homework\\PFLApp\\PFLApp.BLL\\Profiles\\CustomProfile.cs",
+              "RelativeToolTip": "PFLApp.BLL\\Profiles\\CustomProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T03:18:40.039Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\PFLApp\\PFLApp.API\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "PFLApp.API\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\user\\Desktop\\PFLApp\\PFLApp.API\\appsettings.Development.json",
-              "RelativeToolTip": "PFLApp.API\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-05T14:37:36.503Z",
+              "Title": "Match.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Code Academy\\C#\\API\\Homework\\PFLApp\\PFLApp.DAL\\Entity\\Match.cs",
+              "RelativeDocumentMoniker": "PFLApp.DAL\\Entity\\Match.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Code Academy\\C#\\API\\Homework\\PFLApp\\PFLApp.DAL\\Entity\\Match.cs",
+              "RelativeToolTip": "PFLApp.DAL\\Entity\\Match.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T03:18:00.707Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MatchesController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Code Academy\\C#\\API\\Homework\\PFLApp\\PFLApp.API\\Controllers\\MatchesController.cs",
+              "RelativeDocumentMoniker": "PFLApp.API\\Controllers\\MatchesController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Code Academy\\C#\\API\\Homework\\PFLApp\\PFLApp.API\\Controllers\\MatchesController.cs",
+              "RelativeToolTip": "PFLApp.API\\Controllers\\MatchesController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAADgvyQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T03:17:22.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MatchService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Code Academy\\C#\\API\\Homework\\PFLApp\\PFLApp.BLL\\Service\\Implementation\\MatchService.cs",
+              "RelativeDocumentMoniker": "PFLApp.BLL\\Service\\Implementation\\MatchService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Code Academy\\C#\\API\\Homework\\PFLApp\\PFLApp.BLL\\Service\\Implementation\\MatchService.cs",
+              "RelativeToolTip": "PFLApp.BLL\\Service\\Implementation\\MatchService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T03:17:07.237Z",
+              "EditorCaption": ""
             }
           ]
         }

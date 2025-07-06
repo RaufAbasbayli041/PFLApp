@@ -12,8 +12,8 @@ using PFLApp.DAL.DataBase;
 namespace PFLApp.DAL.Migrations
 {
     [DbContext(typeof(PFLDBContext))]
-    [Migration("20250705125609_deyishdim")]
-    partial class deyishdim
+    [Migration("20250705201510_rwerwerwqwedgsd")]
+    partial class rwerwerwqwedgsd
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -181,9 +181,6 @@ namespace PFLApp.DAL.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<int>("AwayTeamId")
-                        .HasColumnType("int");
 
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");

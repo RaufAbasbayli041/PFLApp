@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 using PFLApp.BLL.Models;
 using PFLApp.BLL.Service.Interface;
 using PFLApp.DAL.Entity;
@@ -9,9 +10,9 @@ namespace PFLApp.API.Controllers
     [Route("api/[controller]")]
     public class PlayersController : ControllerBase
     {
-        private readonly IGenericService<Player, PlayerDto> _service;
+        private readonly IPlayerService _service;
 
-        public PlayersController(IGenericService<Player, PlayerDto> service)
+        public PlayersController(IPlayerService service)
         {
             _service = service;
         }

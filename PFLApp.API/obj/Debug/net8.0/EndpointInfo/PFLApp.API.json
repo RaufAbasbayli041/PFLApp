@@ -479,9 +479,17 @@
             "type": "integer",
             "format": "int32"
           },
+          "homeTeamName": {
+            "type": "string",
+            "nullable": true
+          },
           "awayTeamId": {
             "type": "integer",
             "format": "int32"
+          },
+          "awayTeamName": {
+            "type": "string",
+            "nullable": true
           },
           "homeTeamScore": {
             "type": "integer",
@@ -491,7 +499,7 @@
             "type": "integer",
             "format": "int32"
           },
-          "goals": {
+          "score": {
             "type": "array",
             "items": {
               "$ref": "#/components/schemas/MatchScorerDto"
@@ -507,6 +515,18 @@
           "playerId": {
             "type": "integer",
             "format": "int32"
+          },
+          "playerName": {
+            "type": "string",
+            "nullable": true
+          },
+          "teamId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "teamName": {
+            "type": "string",
+            "nullable": true
           },
           "goalsScored": {
             "type": "integer",
@@ -525,6 +545,10 @@
           "teamId": {
             "type": "integer",
             "format": "int32"
+          },
+          "teamName": {
+            "type": "string",
+            "nullable": true
           },
           "name": {
             "type": "string",
@@ -581,6 +605,10 @@
           "stadionId": {
             "type": "integer",
             "format": "int32"
+          },
+          "stadionName": {
+            "type": "string",
+            "nullable": true
           },
           "wins": {
             "type": "integer",

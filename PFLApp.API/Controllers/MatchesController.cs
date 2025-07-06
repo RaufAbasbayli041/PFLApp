@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 using PFLApp.BLL.Models;
 using PFLApp.BLL.Service.Interface;
 
@@ -33,8 +34,8 @@ namespace PFLApp.API.Controllers
 
         [HttpPost]
         public async Task<IActionResult> Create([FromBody] MatchDto dto)
-        {
-            var created = await _service.AddAsync(dto);
+        {                    
+            var created = await _service.MatchResultAsync(dto);
             return CreatedAtAction(nameof(GetById), new { id = created.Id }, created);
         }
 

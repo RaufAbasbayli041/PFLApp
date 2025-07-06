@@ -1,11 +1,12 @@
-﻿using Microsoft.EntityFrameworkCore.Migrations;
+﻿using System;
+using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
 namespace PFLApp.DAL.Migrations
 {
     /// <inheritdoc />
-    public partial class dkjfhsaokfjsaof : Migration
+    public partial class salamaleykum : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -39,6 +40,7 @@ namespace PFLApp.DAL.Migrations
                     Draws = table.Column<int>(type: "int", nullable: false),
                     Losses = table.Column<int>(type: "int", nullable: false),
                     GoalsScored = table.Column<int>(type: "int", nullable: false),
+                    AwayTeamId = table.Column<int>(type: "int", nullable: false),
                     StadionId = table.Column<int>(type: "int", nullable: false),
                     CreatedAt = table.Column<DateTime>(type: "datetime2", nullable: false),
                     UpdatedAt = table.Column<DateTime>(type: "datetime2", nullable: false),

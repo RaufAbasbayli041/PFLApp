@@ -2,6 +2,11 @@
 using PFLApp.DAL.DataBase;
 using PFLApp.DAL.Entity;
 using PFLApp.DAL.Repository.Interface;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace PFLApp.DAL.Repository.Implementation
 {
@@ -16,12 +21,16 @@ namespace PFLApp.DAL.Repository.Implementation
             var data = await _context.Matches
                 .Include(x => x.AwayTeam)
                 .Include(x => x.HomeTeam)
-                .Include(x => x.AwayTeam.Players)
-                .Include(x => x.HomeTeam.Players)
+                .Include(x => x.MatchScorers)
+                    .ThenInclude(x => x.Player)
+                    .ThenInclude(x => x.Team)
                 .Where(x => !x.IsDeleted)
                 .AsNoTracking()
                 .ToListAsync();
             return data;
         }
+
+       
     }
 }
+
